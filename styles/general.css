@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(245, 243, 243);
+  font-family: Josefin Sans, Arial;
+  margin: 0;
+  padding: 120px;
+}
+
+.bold {
+  font-weight: bold;
+}
