@@ -38,6 +38,10 @@
   .main {
     grid-template-columns: 1fr;
   }
+
+  .box-image img {
+    width: 100px;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 700px) {
