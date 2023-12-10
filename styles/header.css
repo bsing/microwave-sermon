@@ -28,3 +28,9 @@
   background-color: white;
   object-fit: cover;
 }
+
+@media (max-width: 375px) {
+  .header-image-left {
+    display: none;
+  }
+}
