@@ -1,0 +1,30 @@
+.header {
+  background-color: white;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header-image-left img,
+.header-image-right img {
+  height: 80px;
+  background-color: white;
+  object-fit: cover;
+}
