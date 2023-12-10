@@ -1,1 +1,54 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.number-box {
+  background-color: white;
+  height: 400px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.box-header {
+  display: flex;
+}
+
+.box-image img {
+  margin: 10px;
+  width: 180px;
+  height: 200px;
+}
+
+.box-number {
+  font-size: 80px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.box-text {
+  padding: 20px;
+}
+
+@media (max-width: 375px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 700px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
