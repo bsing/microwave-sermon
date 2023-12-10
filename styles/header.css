@@ -29,7 +29,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 750px) {
   .header-image-left {
     display: none;
   }
